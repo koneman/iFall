@@ -1,2 +1,4 @@
 # iFall
-iOS app for detecting falls
+
+## Get source code at:
+`git clone https://github.com/koneman/iFall.git`
