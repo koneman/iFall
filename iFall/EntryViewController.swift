@@ -29,7 +29,7 @@ class EntryViewController: UIViewController {
     //setting up views
     override func viewDidLoad() {
         super.viewDidLoad()
-        Chameleon.setGlobalThemeUsingPrimaryColor(FlatCoffeeDark(), with: .contrast)
+        Chameleon.setGlobalThemeUsingPrimaryColor(FlatPowderBlue(), with: .contrast)
         styleButton()
         view.backgroundColor = UIColor.flatWhite
         self.navigationController?.hidesNavigationBarHairline = true
@@ -56,6 +56,7 @@ class EntryViewController: UIViewController {
         showInputDialog()
     }
     
+    //creates dialog for user to input name
     func showInputDialog() {
         //Creating UIAlertController and
         //Setting title and message for the alert dialog
